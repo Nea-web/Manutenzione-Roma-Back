@@ -43,6 +43,18 @@ const containerSchema = new mongoose.Schema({
       required: false
     }
   }],
+  informazioni: {
+    type: String,
+    required: false
+  },
+  cosaOffriamo: {
+    type: String,
+    required: false
+  },
+  materialiTecniche: {
+    type: String,
+    required: false
+  },
   createdAt: {
     type: Date,
     default: Date.now
