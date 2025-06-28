@@ -51,18 +51,6 @@ const containerSchema = new mongoose.Schema({
     type: Date,
     default: Date.now
   },
-  appInfo: {
-    type: String,
-    default: "Benvenuto nell'applicazione container. Questa è una pagina informativa predefinita che fornisce dettagli essenziali sull'applicazione."
-  },
-  appLink: {
-    type: String,
-    required: true
-  },
-  appSpecs: {
-    type: String,
-    default: "Specifiche tecniche dell'applicazione container"
-  },
   customizableFields: [{
     label: {
       type: String,
